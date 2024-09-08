@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="B2C JollyTur Test Suite">
+
+    <!-- Test adını belirtiyoruz -->
+    <test name="Login  Test">
+
+        <!-- Test sınıflarını tanımlıyoruz -->
+        <classes>
+            <!-- Buraya test sınıfının tam yolunu ekliyoruz. Eğer paket kullanıyorsanız paketi de ekleyin -->
+            <class name="LoginTest"/>
+        </classes>
+
+    </test>
+
+</suite>
